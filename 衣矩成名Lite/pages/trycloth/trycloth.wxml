@@ -1,0 +1,14 @@
+
+<camera class="camera_view" flash = "off" device-position ="{{device?'back':'front'}}" bindstop = 'photostop' style = 'background:rgba(0,0,0,0)'   binderror = 'error'>
+	<cover-view class ="coverview"  bindtouchmove='touchmoveCallback' bindtouchstart='touchstartCallback' bindtouchend='touchendCallback'> 
+			<!--覆盖的source，图像可以动态选择，但前提条件是衣服不能是白色背景，必须是衣服的轮廓-->
+		<cover-image class='cover_cloth'  src ="{{img_src}}" style='width:{{touch.scaleWidth}}px;height:{{touch.scaleHeight}}px'  bindload='bindload' mode='center'> 
+		</cover-image> 
+				<!--button>takephoto</button-->
+	</cover-view > 
+		<cover-image class="cover-4" src="/images/camera_postion.png" style="width:60rpx;height:60rpx;" bindtap="devicePosition"></cover-image>  
+			<!--cover-view class = 'cmodel' wx:if = "{{curimgtype=='hand'}}"   > 
+				<cover-image catchtap = 'changemodel' src = '../../images/T_shirt.png' style = 'width:20px;height:20px;padding:5px'></ cover-image >    
+			</cover-view--> 
+</camera> 
+		<!--button type="primary" bindtap= 'backtochoose' >重新选择衣服</button-->

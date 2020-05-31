@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/trycloth/trycloth"
+  ],
+  "window": {
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F0F8FF",
+    "navigationBarTitleText": "衣矩成名",
+    "navigationBarTextStyle": "black"
+  }
+}

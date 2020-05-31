@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!--view class="container" wx:if="{{imgUrls}}"-->
+	<view class="input_text">
+		<textarea class="text" auto-focus="true"  bindinput="bindKeyInput"  bindconfirm="gettaobaoIMG"
+		style= "height:100%" placeholder-class="placeholder" placeholder="请粘贴天猫购物链接~~~\nPS:目前只能解析白色背景衣服"/>
+	</view>
+	<button class='button' size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="gettaobaoIMG"> 解析淘宝链接 </button>
+	<swiper   class="today-cloth" indicator-dots="{{indicatorDots}}"  bindchange='getCurrentImgUrl'>
+		<block   wx:for="{{imgUrls}}">
+			<swiper-item>
+				<image  src="{{item}}" class="slide-image" height="600PX"/>
+			</swiper-item>
+		</block>
+	</swiper>
+	<!--/view-->
+	<!-- 生成合照-->
+	<button  class='button' size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+    disabled="{{disabled}}" bindtap="tryCloth"> 去试衣 </button>
+<!--/view-->

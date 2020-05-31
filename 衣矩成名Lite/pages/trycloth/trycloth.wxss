@@ -1,0 +1,34 @@
+page {
+    background-color: #F0F8FF;
+ 
+}
+
+.camera_view{
+	/*margin-left:2.5%;
+	margin-right:2.5%;*/
+	/*margin-top:5%;*/
+	/*border-radius:10px;*/
+	width:100%;
+  height:100%;
+	/*margin-left:2.5%;
+	margin-right:2.5%;*/
+}
+
+.coverview{
+  justify-content: center;
+}
+
+.cover_cloth{
+	/*这个可以适当充当裁剪的作用*/
+	/*position:relative;*/
+	margin-top:80%;
+	/*margin-right:20%;*/
+	
+	
+  
+}
+.cover-4{  
+  position: absolute;  
+  top: 60rpx;  
+  right:40rpx;  
+}  

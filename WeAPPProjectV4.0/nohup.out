@@ -1,0 +1,467 @@
+[uWSGI] getting INI configuration from config.ini
+*** Starting uWSGI 2.0.17 (32bit) on [Sun Jul 22 20:55:48 2018] ***
+compiled with version: 5.4.0 20160609 on 09 June 2018 15:15:07
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-0-12-ubuntu
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/myproject
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/myproject
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9158310
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1856880 bytes (1813 KB) for 80 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9158310 pid: 8133 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8133)
+spawned uWSGI worker 1 (pid: 8137, cores: 20)
+spawned uWSGI worker 2 (pid: 8138, cores: 20)
+spawned uWSGI worker 3 (pid: 8139, cores: 20)
+spawned uWSGI worker 4 (pid: 8140, cores: 20)
+*** Stats server enabled on /home/myproject/uwsgi.status fd: 16 ***
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8140|app: 0|req: 1/1] 221.2.228.110 () {52 vars in 916 bytes} [Sun Jul 22 20:56:03 2018] POST /getTaobaoImg => generated 178 bytes in 1129 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8138|app: 0|req: 1/2] 221.2.228.110 () {52 vars in 916 bytes} [Sun Jul 22 20:56:30 2018] POST /getTaobaoImg => generated 178 bytes in 1049 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+[pid: 8138|app: 0|req: 2/3] 221.2.228.110 () {52 vars in 920 bytes} [Sun Jul 22 20:56:34 2018] POST /getProcessdImg => generated 76 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 8)
+Sun Jul 22 20:57:51 2018 - *** PAUSE (press start to resume, if you do not have a joypad send SIGTSTP) ***
+Sun Jul 22 20:57:51 2018 - *** worker 1 suspended ***
+Sun Jul 22 20:57:51 2018 - *** worker 3 suspended ***
+SIGINT/SIGQUIT received...killing workers...
+Sun Jul 22 20:57:53 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 20:57:53 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 20:57:53 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from config.ini
+*** Starting uWSGI 2.0.17 (32bit) on [Sun Jul 22 20:58:22 2018] ***
+compiled with version: 5.4.0 20160609 on 09 June 2018 15:15:07
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-0-12-ubuntu
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/myproject
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/myproject
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x8237310
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1856880 bytes (1813 KB) for 80 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8237310 pid: 8337 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8337)
+spawned uWSGI worker 1 (pid: 8341, cores: 20)
+spawned uWSGI worker 2 (pid: 8342, cores: 20)
+spawned uWSGI worker 3 (pid: 8343, cores: 20)
+spawned uWSGI worker 4 (pid: 8344, cores: 20)
+*** Stats server enabled on /home/myproject/uwsgi.status fd: 16 ***
+SIGINT/SIGQUIT received...killing workers...
+Sun Jul 22 20:58:35 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 20:58:35 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 20:58:35 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+[uWSGI] getting INI configuration from config.ini
+*** Starting uWSGI 2.0.17 (32bit) on [Sun Jul 22 20:58:44 2018] ***
+compiled with version: 5.4.0 20160609 on 09 June 2018 15:15:07
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-0-12-ubuntu
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/myproject
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/myproject
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:5000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9941310
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1856880 bytes (1813 KB) for 80 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9941310 pid: 8428 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8428)
+spawned uWSGI worker 1 (pid: 8432, cores: 20)
+spawned uWSGI worker 2 (pid: 8433, cores: 20)
+spawned uWSGI worker 3 (pid: 8434, cores: 20)
+spawned uWSGI worker 4 (pid: 8435, cores: 20)
+*** Stats server enabled on /home/myproject/uwsgi.status fd: 16 ***
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8435|app: 0|req: 1/1] 221.2.228.110 () {52 vars in 916 bytes} [Sun Jul 22 20:58:47 2018] POST /getTaobaoImg => generated 178 bytes in 1097 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+[pid: 8432|app: 0|req: 1/2] 221.2.228.110 () {52 vars in 920 bytes} [Sun Jul 22 20:58:51 2018] POST /getProcessdImg => generated 76 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+Gracefully killing worker 3 (pid: 8434)...
+Gracefully killing worker 2 (pid: 8433)...
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 8432)...
+Gracefully killing worker 4 (pid: 8435)...
+Sun Jul 22 21:00:15 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 21:00:15 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+Sun Jul 22 21:00:15 2018 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) !!!
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/myproject
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:5000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from config.ini
+*** Starting uWSGI 2.0.17 (32bit) on [Sun Jul 22 21:00:16 2018] ***
+compiled with version: 5.4.0 20160609 on 09 June 2018 15:15:07
+os: Linux-4.4.0-92-generic #115-Ubuntu SMP Thu Aug 10 16:02:55 UTC 2017
+nodename: VM-0-12-ubuntu
+machine: i686
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/myproject
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/myproject
+your processes number limit is 6703
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:5000 fd 3
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9eece90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1856880 bytes (1813 KB) for 80 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9eece90 pid: 8428 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 8428)
+spawned uWSGI worker 1 (pid: 8599, cores: 20)
+spawned uWSGI worker 2 (pid: 8600, cores: 20)
+spawned uWSGI worker 3 (pid: 8601, cores: 20)
+spawned uWSGI worker 4 (pid: 8602, cores: 20)
+*** Stats server enabled on /home/myproject/uwsgi.status fd: 16 ***
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+[pid: 8602|app: 0|req: 1/1] 221.2.228.110 () {52 vars in 920 bytes} [Sun Jul 22 21:00:19 2018] POST /getProcessdImg => generated 76 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8602|app: 0|req: 2/2] 221.2.228.110 () {52 vars in 916 bytes} [Sun Jul 22 21:00:34 2018] POST /getTaobaoImg => generated 178 bytes in 1267 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 1)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+[pid: 8602|app: 0|req: 3/3] 221.2.228.110 () {52 vars in 920 bytes} [Sun Jul 22 21:01:52 2018] POST /getProcessdImg => generated 76 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 2)
+[pid: 8602|app: 0|req: 4/4] 36.229.112.43 () {30 vars in 338 bytes} [Sun Jul 22 21:35:39 2018] GET / => generated 233 bytes in 3 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 3)
+[pid: 8602|app: 0|req: 5/5] 185.42.25.250 () {36 vars in 521 bytes} [Sun Jul 22 21:50:43 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 4)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153041595936.png
+[pid: 8602|app: 0|req: 6/6] 221.2.228.110 () {52 vars in 920 bytes} [Sun Jul 22 22:00:03 2018] POST /getProcessdImg => generated 76 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 4)
+[pid: 8602|app: 0|req: 7/7] 170.254.74.170 () {36 vars in 529 bytes} [Sun Jul 22 22:57:31 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 8/8] 189.47.2.145 () {36 vars in 520 bytes} [Sun Jul 22 23:05:00 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 9/9] 92.242.236.44 () {30 vars in 338 bytes} [Sun Jul 22 23:07:52 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 10/10] 101.226.114.195 () {42 vars in 700 bytes} [Sun Jul 22 23:20:35 2018] GET /index.do => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 11/11] 80.82.78.50 () {36 vars in 489 bytes} [Sun Jul 22 23:28:30 2018] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 12/12] 59.36.119.227 () {42 vars in 682 bytes} [Mon Jul 23 01:03:11 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 13/13] 164.115.24.144 () {34 vars in 407 bytes} [Mon Jul 23 01:24:03 2018] GET /webdav/ => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 1/14] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:06 2018] POST /wuwu11.php => generated 233 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 8601|app: 0|req: 2/15] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:08 2018] POST /xw.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8600|app: 0|req: 1/16] 164.115.24.144 () {40 vars in 552 bytes} [Mon Jul 23 01:24:11 2018] POST /xw1.php => generated 233 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 8600|app: 0|req: 2/17] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:12 2018] POST /9678.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8599|app: 0|req: 1/18] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:12 2018] POST /wc.php => generated 233 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 8599|app: 0|req: 2/19] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:15 2018] POST /xx.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8602|app: 0|req: 14/20] 164.115.24.144 () {40 vars in 548 bytes} [Mon Jul 23 01:24:16 2018] POST /s.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 3/21] 164.115.24.144 () {40 vars in 548 bytes} [Mon Jul 23 01:24:17 2018] POST /w.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8600|app: 0|req: 3/22] 164.115.24.144 () {40 vars in 556 bytes} [Mon Jul 23 01:24:17 2018] POST /sheep.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8601|app: 0|req: 4/23] 164.115.24.144 () {40 vars in 560 bytes} [Mon Jul 23 01:24:18 2018] POST /db.init.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 15/24] 164.115.24.144 () {40 vars in 576 bytes} [Mon Jul 23 01:24:21 2018] POST /db_session.init.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8599|app: 0|req: 3/25] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:24 2018] POST /mx.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8600|app: 0|req: 4/26] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:25 2018] POST /wshell.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8602|app: 0|req: 16/27] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:26 2018] POST /xshell.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 17/28] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:26 2018] POST /qq.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 16)
+[pid: 8602|app: 0|req: 18/29] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:27 2018] POST /conflg.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 16)
+[pid: 8602|app: 0|req: 19/30] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:27 2018] POST /lindex.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 16)
+[pid: 8602|app: 0|req: 20/31] 164.115.24.144 () {40 vars in 562 bytes} [Mon Jul 23 01:24:29 2018] POST /phpstudy.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 19)
+[pid: 8602|app: 0|req: 21/32] 164.115.24.144 () {40 vars in 560 bytes} [Mon Jul 23 01:24:30 2018] POST /weixiao.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 19)
+[pid: 8601|app: 0|req: 5/33] 164.115.24.144 () {40 vars in 562 bytes} [Mon Jul 23 01:24:30 2018] POST /feixiang.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 6/34] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:41 2018] POST /ak47.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8601|app: 0|req: 7/35] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:41 2018] POST /xiao.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 4/36] 164.115.24.144 () {40 vars in 552 bytes} [Mon Jul 23 01:24:43 2018] POST /yao.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8599|app: 0|req: 5/37] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:43 2018] POST /defect.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 4)
+[pid: 8599|app: 0|req: 6/38] 164.115.24.144 () {40 vars in 560 bytes} [Mon Jul 23 01:24:44 2018] POST /webslee.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 4)
+[pid: 8601|app: 0|req: 8/39] 164.115.24.144 () {40 vars in 548 bytes} [Mon Jul 23 01:24:45 2018] POST /q.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8601|app: 0|req: 9/40] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:45 2018] POST /pe.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 9)
+[pid: 8601|app: 0|req: 10/41] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:46 2018] POST /hm.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 9)
+[pid: 8601|app: 0|req: 11/42] 164.115.24.144 () {40 vars in 560 bytes} [Mon Jul 23 01:24:47 2018] POST /cainiao.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 9)
+[pid: 8601|app: 0|req: 12/43] 164.115.24.144 () {40 vars in 560 bytes} [Mon Jul 23 01:24:48 2018] POST /zuoshou.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 14)
+[pid: 8601|app: 0|req: 13/44] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:49 2018] POST /aotu.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 14)
+[pid: 8601|app: 0|req: 14/45] 164.115.24.144 () {40 vars in 552 bytes} [Mon Jul 23 01:24:49 2018] POST /cmd.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 14)
+[pid: 8601|app: 0|req: 15/46] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:50 2018] POST /system.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 8601|app: 0|req: 16/47] 164.115.24.144 () {40 vars in 558 bytes} [Mon Jul 23 01:24:50 2018] POST /xiaoma.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 8601|app: 0|req: 17/48] 164.115.24.144 () {40 vars in 550 bytes} [Mon Jul 23 01:24:51 2018] POST /qq.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 2)
+[pid: 8601|app: 0|req: 18/49] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:52 2018] POST /data.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 8)
+[pid: 8601|app: 0|req: 19/50] 164.115.24.144 () {40 vars in 552 bytes} [Mon Jul 23 01:24:52 2018] POST /log.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 8)
+[pid: 8601|app: 0|req: 20/51] 164.115.24.144 () {40 vars in 554 bytes} [Mon Jul 23 01:24:53 2018] POST /fack.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 8)
+[pid: 8599|app: 0|req: 7/52] 164.115.24.144 () {40 vars in 556 bytes} [Mon Jul 23 01:24:54 2018] POST /angge.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 4)
+[pid: 8599|app: 0|req: 8/53] 95.133.31.81 () {36 vars in 521 bytes} [Mon Jul 23 01:36:30 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 9/54] 177.101.132.234 () {36 vars in 523 bytes} [Mon Jul 23 02:02:30 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 10/55] 61.14.228.58 () {36 vars in 520 bytes} [Mon Jul 23 02:32:10 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 11/56] 81.29.243.69 () {36 vars in 520 bytes} [Mon Jul 23 02:40:45 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 12/57] 139.162.88.63 () {36 vars in 477 bytes} [Mon Jul 23 02:51:34 2018] GET /echo.php?info=1234567890 => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 13/58] 80.82.70.187 () {36 vars in 490 bytes} [Mon Jul 23 03:07:29 2018] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 14/59] 211.144.157.50 () {38 vars in 567 bytes} [Mon Jul 23 03:17:58 2018] GET /manager/html => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 15/60] 178.73.215.171 () {32 vars in 357 bytes} [Mon Jul 23 03:55:46 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 16/61] 5.8.54.27 () {38 vars in 605 bytes} [Mon Jul 23 04:01:40 2018] GET /?XDEBUG_SESSION_START=phpstorm => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 17/62] 176.214.82.39 () {30 vars in 338 bytes} [Mon Jul 23 04:13:41 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 18/63] 111.73.46.198 () {38 vars in 510 bytes} [Mon Jul 23 04:21:07 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8600|app: 0|req: 5/64] 111.73.46.198 () {38 vars in 2253 bytes} [Mon Jul 23 04:21:07 2018] GET /index.action => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8599|app: 0|req: 19/65] 101.91.62.11 () {42 vars in 699 bytes} [Mon Jul 23 04:41:12 2018] GET /sheep.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8600|app: 0|req: 6/66] 101.91.62.11 () {42 vars in 701 bytes} [Mon Jul 23 04:41:12 2018] GET /xiaoma.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8599|app: 0|req: 20/67] 5.160.212.45 () {36 vars in 527 bytes} [Mon Jul 23 04:49:19 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 21/68] 58.251.121.185 () {42 vars in 703 bytes} [Mon Jul 23 05:16:30 2018] GET /system.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8602|app: 0|req: 22/69] 183.57.53.196 () {42 vars in 692 bytes} [Mon Jul 23 05:16:30 2018] GET /w.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 19)
+[pid: 8600|app: 0|req: 7/70] 101.91.62.109 () {42 vars in 698 bytes} [Mon Jul 23 05:16:30 2018] GET /ak47.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8601|app: 0|req: 21/71] 101.91.62.11 () {42 vars in 693 bytes} [Mon Jul 23 05:16:30 2018] GET /mx.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 8)
+[pid: 8599|app: 0|req: 22/72] 222.186.169.103 () {44 vars in 667 bytes} [Mon Jul 23 06:20:53 2018] GET /phpmyadmin => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 23/73] 179.111.186.168 () {36 vars in 523 bytes} [Mon Jul 23 06:22:01 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 24/74] 37.57.55.50 () {36 vars in 526 bytes} [Mon Jul 23 06:22:35 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 25/75] 34.251.12.59 () {38 vars in 450 bytes} [Mon Jul 23 06:32:38 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+[pid: 8599|app: 0|req: 26/76] 139.162.106.181 () {36 vars in 428 bytes} [Mon Jul 23 07:10:01 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 7)
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8599|app: 0|req: 27/77] 112.65.48.199 () {46 vars in 1005 bytes} [Mon Jul 23 07:37:13 2018] POST /getTaobaoImg => generated 178 bytes in 1238 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 7)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= ' http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+Error:unable to fetch data
+False
+数据库中没，需要重新保存
+72
+66
+72
+65
+INFO:qcloud_cos.cos_client:put object, url=:https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153230263842.png ,headers=:{'Content-Type': 'image/jpeg', 'x-cos-storage-class': 'STANDARD'}
+"a0c36bb4de18bfe8589b122826e3ff6b"
+插入数据失败
+ERROR:flask.app:Exception on /getProcessdImg [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./myapp.py", line 66, in getProcessdImg
+    insertDb(db,img_url,procesed_img_url)
+  File "./ImgUrlMysql.py", line 24, in insertDb
+    db.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+[pid: 8599|app: 0|req: 28/78] 112.65.48.199 () {46 vars in 1009 bytes} [Mon Jul 23 07:37:18 2018] POST /getProcessdImg => generated 291 bytes in 6327 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 8)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= ' http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+Error:unable to fetch data
+False
+数据库中没，需要重新保存
+72
+66
+72
+65
+INFO:qcloud_cos.cos_client:put object, url=:https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153230265905.png ,headers=:{'Content-Type': 'image/jpeg', 'x-cos-storage-class': 'STANDARD'}
+"a0c36bb4de18bfe8589b122826e3ff6b"
+插入数据失败
+ERROR:flask.app:Exception on /getProcessdImg [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./myapp.py", line 66, in getProcessdImg
+    insertDb(db,img_url,procesed_img_url)
+  File "./ImgUrlMysql.py", line 24, in insertDb
+    db.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+[pid: 8599|app: 0|req: 29/79] 112.65.48.199 () {46 vars in 1009 bytes} [Mon Jul 23 07:37:39 2018] POST /getProcessdImg => generated 291 bytes in 6062 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 9)
+[pid: 8599|app: 0|req: 30/80] 61.178.72.29 () {38 vars in 509 bytes} [Mon Jul 23 09:07:54 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8600|app: 0|req: 8/81] 61.178.72.29 () {38 vars in 2252 bytes} [Mon Jul 23 09:07:54 2018] GET /index.action => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 1)
+[pid: 8599|app: 0|req: 31/82] 101.91.62.11 () {42 vars in 701 bytes} [Mon Jul 23 09:45:55 2018] GET /phpmyadmin => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 32/83] 117.50.7.159 () {34 vars in 385 bytes} [Mon Jul 23 10:02:34 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 33/84] 222.141.64.121 () {38 vars in 489 bytes} [Mon Jul 23 10:38:05 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 34/85] 92.17.0.60 () {36 vars in 519 bytes} [Mon Jul 23 10:48:00 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 35/86] 122.14.218.244 () {44 vars in 584 bytes} [Mon Jul 23 10:57:24 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 36/87] 80.82.70.187 () {36 vars in 490 bytes} [Mon Jul 23 12:08:47 2018] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+[pid: 8599|app: 0|req: 37/88] 83.169.210.198 () {36 vars in 523 bytes} [Mon Jul 23 12:14:16 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 10)
+http://m.tb.cn/h.31aTNq9
+http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg
+http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg
+[pid: 8599|app: 0|req: 38/89] 183.195.119.227 () {46 vars in 1011 bytes} [Mon Jul 23 12:40:36 2018] POST /getTaobaoImg => generated 178 bytes in 1152 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 18)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= ' http://img.alicdn.com/imgextra/i2/196993935/TB2_7vkXwZC2uNjSZFnXXaxZpXa-196993935.jpg'
+Error:unable to fetch data
+False
+数据库中没，需要重新保存
+72
+66
+72
+65
+INFO:qcloud_cos.cos_client:put object, url=:https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153232083956.png ,headers=:{'Content-Type': 'image/jpeg', 'x-cos-storage-class': 'STANDARD'}
+"a0c36bb4de18bfe8589b122826e3ff6b"
+插入数据失败
+ERROR:flask.app:Exception on /getProcessdImg [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./myapp.py", line 66, in getProcessdImg
+    insertDb(db,img_url,procesed_img_url)
+  File "./ImgUrlMysql.py", line 24, in insertDb
+    db.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+[pid: 8599|app: 0|req: 39/90] 183.195.119.227 () {46 vars in 1015 bytes} [Mon Jul 23 12:40:39 2018] POST /getProcessdImg => generated 291 bytes in 6340 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 19)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i4/196993935/TB2nvX7edknBKNjSZKPXXX6OFXa-196993935.jpg'
+Error:unable to fetch data
+False
+数据库中没，需要重新保存
+72
+66
+72
+65
+INFO:qcloud_cos.cos_client:put object, url=:https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153232085343.png ,headers=:{'Content-Type': 'image/jpeg', 'x-cos-storage-class': 'STANDARD'}
+"3ee73bc98c0276cc0f3260f8ef97fe94"
+插入数据失败
+ERROR:flask.app:Exception on /getProcessdImg [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./myapp.py", line 66, in getProcessdImg
+    insertDb(db,img_url,procesed_img_url)
+  File "./ImgUrlMysql.py", line 24, in insertDb
+    db.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+[pid: 8601|app: 0|req: 22/91] 183.195.119.227 () {46 vars in 1015 bytes} [Mon Jul 23 12:40:53 2018] POST /getProcessdImg => generated 291 bytes in 5926 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 10)
+http://m.tb.cn/h.31Urehu
+http://img.alicdn.com/imgextra/i2/2074778846/TB29zWPaxGYBuNjy0FnXXX5lpXa_!!2074778846.jpg
+http://img.alicdn.com/imgextra/i3/2074778846/TB2S_wjaDlYBeNjSszcXXbwhFXa_!!2074778846.jpg
+http://img.alicdn.com/imgextra/i1/2074778846/TB2ecMcaER1BeNjy0FmXXb0wVXa_!!2074778846.jpg
+http://img.alicdn.com/imgextra/TB1zHXfA4WYBuNjy1zkL6RGGpXa
+http://img.alicdn.com/imgextra/TB1jafSgfuSBuNkHFqDL6RfhVXa
+http://img.alicdn.com/imgextra/TB1oi2DgfiSBuNkSnhJL6TDcpXa
+http://img.alicdn.com/imgextra/TB1M_gZwA9WBuNjSspeL6Sz5VXa
+[pid: 8601|app: 0|req: 23/92] 183.195.119.227 () {46 vars in 1011 bytes} [Mon Jul 23 12:45:44 2018] POST /getTaobaoImg => generated 527 bytes in 1306 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 16)
+SELECT * FROM imgurls 		WHERE taobaoimgurl= 'http://img.alicdn.com/imgextra/i2/2074778846/TB29zWPaxGYBuNjy0FnXXX5lpXa_!!2074778846.jpg'
+Error:unable to fetch data
+False
+数据库中没，需要重新保存
+0
+0
+0
+0
+INFO:qcloud_cos.cos_client:put object, url=:https://armirrorpro-1256515134.cos.ap-shanghai.myqcloud.com/153232130555.png ,headers=:{'Content-Type': 'image/jpeg', 'x-cos-storage-class': 'STANDARD'}
+"b05fc876aeea8bb0968f7b8e390ba739"
+插入数据失败
+ERROR:flask.app:Exception on /getProcessdImg [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./myapp.py", line 66, in getProcessdImg
+    insertDb(db,img_url,procesed_img_url)
+  File "./ImgUrlMysql.py", line 24, in insertDb
+    db.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+[pid: 8601|app: 0|req: 24/93] 183.195.119.227 () {46 vars in 1014 bytes} [Mon Jul 23 12:48:25 2018] POST /getProcessdImg => generated 291 bytes in 6339 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 1)
+[pid: 8601|app: 0|req: 25/94] 201.148.246.55 () {36 vars in 523 bytes} [Mon Jul 23 14:37:26 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 26/95] 60.191.38.78 () {38 vars in 515 bytes} [Mon Jul 23 15:01:39 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 27/96] 201.69.126.89 () {36 vars in 521 bytes} [Mon Jul 23 15:34:00 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 28/97] 222.141.64.121 () {38 vars in 489 bytes} [Mon Jul 23 16:31:25 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 29/98] 177.185.46.118 () {30 vars in 339 bytes} [Mon Jul 23 16:38:27 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 30/99] 218.211.168.176 () {38 vars in 443 bytes} [Mon Jul 23 16:45:24 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 31/100] 217.112.129.95 () {36 vars in 523 bytes} [Mon Jul 23 17:12:42 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8601|app: 0|req: 32/101] 190.94.141.29 () {38 vars in 550 bytes} [Mon Jul 23 17:51:06 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+[pid: 8602|app: 0|req: 23/102] 190.94.141.29 () {38 vars in 550 bytes} [Mon Jul 23 17:51:07 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 19)
+[pid: 8601|app: 0|req: 33/103] 197.156.2.2 () {36 vars in 519 bytes} [Mon Jul 23 18:01:16 2018] GET / => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 6)
+Mon Jul 23 18:46:38 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 23 18:46:38 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!

@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+page {
+    background-color: #F0F8FF;
+ 
+}
+
+.input_text{
+	/*flex: 1;  
+    /*display: flex;  */
+    /*width: 90%;  
+    /*overflow: hidden;  */
+	height:16%;
+	width:90%;
+	padding:5%
+}
+
+.button{
+	background-color:#87CEFA;
+	width:90%;
+	color:white;
+}
+.today-cloth{
+	margin:5%;
+	align-items: center;
+	height:43%
+	
+}
+.placeholder{
+	color:#87CEFA;
+	font-size:38rpx;
+	text-align:center-right;
+	
+}
+
+
